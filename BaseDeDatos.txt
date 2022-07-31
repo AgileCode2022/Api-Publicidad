@@ -1,0 +1,10 @@
+create database prueba;
+use prueba;
+
+create table Banner(
+    id integer unsigned not null auto_increment,
+    nombre varchar(25) null,
+    imagen varchar(40) null,
+    url varchar(100) null,
+    primary key(id)
+);
